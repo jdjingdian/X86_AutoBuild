@@ -1,0 +1,4 @@
+0 4 * * * /etc/coremark.sh
+0 2 * * * /usr/share/UnblockNeteaseMusic/update_core.sh 2>&1
+0 1 * * * echo "" > /tmp/ssrplus.log
+0 2 * * * /usr/share/shadowsocksr/ssrplusupdate.sh
